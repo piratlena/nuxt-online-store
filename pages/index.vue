@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Home</h2>
+    <h2>Nuxt Shop</h2>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, aspernatur
       numquam perspiciatis doloremque facilis, praesentium nobis ipsum ducimus
