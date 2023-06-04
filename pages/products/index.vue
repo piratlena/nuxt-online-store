@@ -16,6 +16,11 @@ definePageMeta({
 });
 
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
+
+useHead({
+  title: "Nuxt Store | Online Store",
+  meta: [{ name: "description", content: "Nuxt 3 Store" }],
+});
 </script>
 
 <style lang="scss" scoped></style>
