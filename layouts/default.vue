@@ -33,9 +33,9 @@
     </div>
 
     <footer
-      class="container mx-auto p-4 flex justify-between border-t-2 bg-[#221f1f]"
+      class="w-screen mx-auto p-4 flex justify-between border-t-2 bg-[#221f1f]"
     >
-      <div class="mx-auto text-sm sm:text-base text-white">
+      <div class="container mx-auto text-sm sm:text-base text-white">
         <div className="max-w-[1240px] mx-auto py-2 text-sm sm:text-base">
           <div className="flex justify-center">
             <NuxtLink

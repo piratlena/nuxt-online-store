@@ -7,6 +7,9 @@
   input[type="number"]::-webkit-outer-spin-button {
     @apply appearance-none;
   }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
+  }
 }
 
 @layer components {
