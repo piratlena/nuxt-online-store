@@ -16,4 +16,7 @@ export default defineNuxtConfig({
       "@fortawesome/free-brands-svg-icons",
     ],
   },
+  runtimeConfig: {
+    currencyKey: process.env.CURRENCY_API_KEY,
+  },
 });

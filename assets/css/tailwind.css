@@ -22,3 +22,6 @@
   transition: opacity 0.3s linear;
   opacity: 0.5;
 }
+.router-link-exact-active {
+  color: #12b488;
+}

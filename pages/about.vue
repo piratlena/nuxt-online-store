@@ -7,9 +7,12 @@
       ullam assumenda exercitationem, laudantium quis quos cupiditate iste cum
       esse alias vero.
     </p>
+    <div>{{ data }}</div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const { data } = await useFetch("/api/currency/USD");
+</script>
 
 <style scoped></style>
